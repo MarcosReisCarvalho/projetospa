@@ -1,0 +1,39 @@
+.esp {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(204, 118, 19);
+}
+
+button {
+    margin-bottom: 50px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
+.card {
+    max-width: 400px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

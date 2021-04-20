@@ -1,0 +1,24 @@
+.color {
+    background-color: rgb(204, 118, 19);
+}
+
+.example-container {
+    height: 100vh;
+}
+
+.example-sidenav {
+    height: inherit;
+
+    padding: 20px 30px;
+
+    background-color: grey;
+}
+
+.espa {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.content {
+    text-align: center;
+}

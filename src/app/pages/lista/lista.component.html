@@ -1,0 +1,16 @@
+<div class="esp">
+  <button mat-raised-button (click)="exibir()">Exibir Tabela de heróis</button>
+  <mat-card class="card">
+      <table *ngIf="exibeTabela">
+        <tr>
+          <th>Nome</th>
+          <th>Poder</th>
+        </tr>
+        <tr *ngFor="let heroi of listaHerois">
+          <td>{{heroi.nome}}</td>
+          <td>{{heroi.poder}}</td>
+        </tr>
+    </table>
+  </mat-card>
+
+</div>
